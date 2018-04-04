@@ -4,6 +4,9 @@ from PyQt5.QtCore import Qt, pyqtSlot, pyqtSignal, qAbs, QRect
 
 
 class CaptureScreen(QWidget):
+    """
+    截屏: 使用时仅需直接new一个该实例即可出现全屏的截屏界面
+    """
     load_pixmap = None
     screen_width = None
     screen_height = None
@@ -27,6 +30,7 @@ class CaptureScreen(QWidget):
         self.setWindowState(Qt.WindowActive | Qt.WindowFullScreen)
 
     def load_background_pixmap(self):
+        # 截下当前屏幕的图像
         self.load_pixmap = QGuiApplication.primaryScreen().grabWindow(QApplication.desktop().winId())
         self.screen_width = self.load_pixmap.width()
         self.screen_height = self.load_pixmap.height()

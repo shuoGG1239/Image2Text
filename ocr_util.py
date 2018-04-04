@@ -9,7 +9,7 @@ SECRET_KEY = 'ceb97436c7e046468dd578db104c6025'
 def get_ocr_str(file_path, origin_format=True):
     """
     图片转文字
-    :param file_path:
+    :param file_path: 图片路径
     :return:
     """
     with open(file_path, 'rb') as fp:
@@ -20,7 +20,7 @@ def get_ocr_str(file_path, origin_format=True):
 def get_ocr_str_from_bytes(file_bytes, origin_format=True):
     """
     图片转文字
-    :param file_bytes:
+    :param file_bytes: 图片的字节
     :return:
     """
     options = {
