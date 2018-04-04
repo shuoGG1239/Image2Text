@@ -2,6 +2,7 @@ import sys
 
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication
+from screen_capture import CaptureScreen
 
 import Image2Text
 

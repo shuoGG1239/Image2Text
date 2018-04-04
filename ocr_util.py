@@ -14,6 +14,15 @@ def get_ocr_str(file_path, origin_format=True):
     """
     with open(file_path, 'rb') as fp:
         file_bytes = fp.read()
+    return get_ocr_str_from_bytes(file_bytes, origin_format)
+
+
+def get_ocr_str_from_bytes(file_bytes, origin_format=True):
+    """
+    图片转文字
+    :param file_bytes:
+    :return:
+    """
     options = {
         'detect_direction': 'false',
         'language_type': 'CHN_ENG',

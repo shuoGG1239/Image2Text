@@ -36,6 +36,19 @@
     </rect>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButtonCapture">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>280</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Capture</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

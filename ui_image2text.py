@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui_image2text.ui'
 #
-# Created: Tue Apr  3 20:17:14 2018
+# Created: Wed Apr  4 10:29:29 2018
 #      by: PyQt5 UI code generator 5.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,6 +19,9 @@ class Ui_image2textWidget(object):
         self.textEdit = QtWidgets.QTextEdit(image2textWidget)
         self.textEdit.setGeometry(QtCore.QRect(7, 10, 591, 261))
         self.textEdit.setObjectName("textEdit")
+        self.pushButtonCapture = QtWidgets.QPushButton(image2textWidget)
+        self.pushButtonCapture.setGeometry(QtCore.QRect(400, 280, 71, 31))
+        self.pushButtonCapture.setObjectName("pushButtonCapture")
 
         self.retranslateUi(image2textWidget)
         QtCore.QMetaObject.connectSlotsByName(image2textWidget)
@@ -27,4 +30,5 @@ class Ui_image2textWidget(object):
         _translate = QtCore.QCoreApplication.translate
         image2textWidget.setWindowTitle(_translate("image2textWidget", "Form"))
         self.pushButtonOpen.setText(_translate("image2textWidget", "Open"))
+        self.pushButtonCapture.setText(_translate("image2textWidget", "Capture"))
 
