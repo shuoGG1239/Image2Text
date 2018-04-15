@@ -1,0 +1,363 @@
+missing module named PyQt5.QtCore.QCoreApplication - imported by PyQt5.QtCore, C:\Python34\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_qt5plugins.py
+missing module named PyQt5.QtCore.qAbs - imported by PyQt5.QtCore, screen_capture
+missing module named PyQt5.QtCore.QRect - imported by PyQt5.QtCore, screen_capture
+missing module named PyQt5.QtCore.Qt - imported by PyQt5.QtCore, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtCore.QEvent - imported by PyQt5.QtCore, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtCore.QSize - imported by PyQt5.QtCore, Image2Text, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtCore.QBuffer - imported by PyQt5.QtCore, Image2Text
+missing module named PyQt5.QtCore.pyqtSignal - imported by PyQt5.QtCore, Image2Text, screen_capture
+missing module named PyQt5.QtCore.QByteArray - imported by PyQt5.QtCore, Image2Text
+missing module named PyQt5.QtCore.QIODevice - imported by PyQt5.QtCore, Image2Text
+missing module named PyQt5.QtCore.pyqtSlot - imported by PyQt5.QtCore, Image2Text, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtCore.QFileInfo - imported by PyQt5.QtCore, Image2Text
+missing module named PyQt5.Qt.QSizePolicy - imported by PyQt5.Qt, qss_ui_theme.window_titlebar
+missing module named PyQt5.Qt.QMouseEvent - imported by PyQt5.Qt, qss_ui_theme.window_titlebar
+missing module named _io.BufferedReader - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.BufferedRandom - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.open - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.BytesIO - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.StringIO - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.TextIOWrapper - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.DEFAULT_BUFFER_SIZE - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.FileIO - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.IncrementalNewlineDecoder - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.BufferedRWPair - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.BufferedWriter - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.BlockingIOError - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named _io.UnsupportedOperation - imported by _io, io, D:\git_project\Image2Text\main.py
+missing module named resource - imported by posix, D:\git_project\Image2Text\main.py
+missing module named posix - imported by os, D:\git_project\Image2Text\main.py
+missing module named time.sleep - imported by time, pymouse.windows
+missing module named time.gmtime - imported by time, http.cookies
+missing module named _datetime.__doc__ - imported by _datetime, datetime, D:\git_project\Image2Text\main.py
+missing module named _posixsubprocess - imported by subprocess, D:\git_project\Image2Text\main.py
+missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna, D:\git_project\Image2Text\main.py
+missing module named threading.current_thread - imported by threading, _threading_local, D:\git_project\Image2Text\main.py
+missing module named _dummy_threading - imported by dummy_threading, D:\git_project\Image2Text\main.py
+missing module named _dummy_threading.__all__ - imported by _dummy_threading, dummy_threading, D:\git_project\Image2Text\main.py
+missing module named _collections.deque - imported by _collections, collections, threading, D:\git_project\Image2Text\main.py
+missing module named _collections.defaultdict - imported by _collections, collections, D:\git_project\Image2Text\main.py
+missing module named _collections._count_elements - imported by _collections, collections, D:\git_project\Image2Text\main.py
+missing module named collections.MutableMapping - imported by collections, urllib3._collections
+missing module named collections.Mapping - imported by collections, urllib3.util.selectors, urllib3._collections, cgi, requests.sessions
+missing module named collections.deque - imported by collections, threading, contextlib, ast, shlex, pydoc, queue, D:\git_project\Image2Text\main.py
+missing module named itertools.starmap - imported by itertools, collections, D:\git_project\Image2Text\main.py
+missing module named itertools.takewhile - imported by itertools, urllib3.util.retry
+missing module named itertools.chain - imported by itertools, heapq, tokenize, collections, decimal, OpenSSL.SSL, D:\git_project\Image2Text\main.py
+missing module named itertools.tee - imported by itertools, heapq, D:\git_project\Image2Text\main.py
+missing module named itertools.islice - imported by itertools, heapq, threading, reprlib, D:\git_project\Image2Text\main.py
+missing module named itertools.count - imported by itertools, heapq, threading, OpenSSL.SSL, D:\git_project\Image2Text\main.py
+missing module named posix._exit - imported by posix, os, D:\git_project\Image2Text\main.py
+missing module named posix._have_functions - imported by posix, os, D:\git_project\Image2Text\main.py
+missing module named ce - imported by os, D:\git_project\Image2Text\main.py
+missing module named ce._exit - imported by ce, os, D:\git_project\Image2Text\main.py
+missing module named ce._have_functions - imported by ce, os, D:\git_project\Image2Text\main.py
+missing module named _opcode.stack_effect - imported by _opcode, opcode, D:\git_project\Image2Text\main.py
+missing module named readline - imported by cmd, code, pdb, D:\git_project\Image2Text\main.py
+missing module named _imp.release_lock - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.acquire_lock - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.init_builtin - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.get_frozen_object - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.is_frozen_package - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.lock_held - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp._fix_co_filename - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.is_builtin - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.is_frozen - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.init_frozen - imported by _imp, imp, D:\git_project\Image2Text\main.py
+missing module named _imp.load_dynamic - imported by _imp, imp, D:\git_project\Image2Text\main.py
+excluded module named _frozen_importlib - imported by importlib, D:\git_project\Image2Text\main.py
+missing module named zipimport.zipimporter - imported by zipimport, pkgutil, D:\git_project\Image2Text\main.py
+missing module named win32api.RegQueryValueEx - imported by win32api, platform, D:\git_project\Image2Text\main.py
+missing module named win32api.RegCloseKey - imported by win32api, platform, D:\git_project\Image2Text\main.py
+missing module named win32api.GetVersionEx - imported by win32api, platform, D:\git_project\Image2Text\main.py
+missing module named win32api.RegOpenKeyEx - imported by win32api, platform, D:\git_project\Image2Text\main.py
+missing module named win32con.VER_NT_WORKSTATION - imported by win32con, platform, D:\git_project\Image2Text\main.py
+missing module named _scproxy._get_proxy_settings - imported by _scproxy, urllib.request
+missing module named _scproxy._get_proxies - imported by _scproxy, urllib.request
+missing module named _scproxy - imported by urllib.request
+missing module named 'org.python'.imp - imported by 'org.python', xml.sax
+missing module named 'org.python' - imported by xml.sax
+missing module named 'java.lang'.Exception - imported by 'java.lang', xml.sax._exceptions
+missing module named xml.parsers.expat.ParserCreate - imported by xml.parsers.expat, plistlib, D:\git_project\Image2Text\main.py
+missing module named java - imported by platform, D:\git_project\Image2Text\main.py
+missing module named java.System - imported by java, platform, D:\git_project\Image2Text\main.py
+missing module named 'java.lang' - imported by platform, D:\git_project\Image2Text\main.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, D:\git_project\Image2Text\main.py
+missing module named termios - imported by tty, getpass, D:\git_project\Image2Text\main.py
+missing module named _ssl.OPENSSL_VERSION_INFO - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.OPENSSL_VERSION - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.OPENSSL_VERSION_NUMBER - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl._SSLContext - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLZeroReturnError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLWantReadError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLEOFError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLWantWriteError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.SSLSyscallError - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.CERT_NONE - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.CERT_REQUIRED - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.CERT_OPTIONAL - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.VERIFY_CRL_CHECK_CHAIN - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.VERIFY_X509_STRICT - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.VERIFY_DEFAULT - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.VERIFY_CRL_CHECK_LEAF - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.txt2obj - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.nid2obj - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.RAND_bytes - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.RAND_add - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.RAND_status - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.RAND_pseudo_bytes - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.RAND_egd - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.HAS_ECDH - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.HAS_NPN - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.HAS_SNI - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl._OPENSSL_API_VERSION - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.PROTOCOL_SSLv2 - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.PROTOCOL_TLSv1_1 - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.PROTOCOL_TLSv1_2 - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.enum_crls - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named _ssl.enum_certificates - imported by _ssl, ssl, D:\git_project\Image2Text\main.py
+missing module named ssl.OP_NO_SSLv2 - imported by ssl, urllib3.util.ssl_
+missing module named ssl.OP_NO_COMPRESSION - imported by ssl, urllib3.util.ssl_
+missing module named ssl.OP_NO_SSLv3 - imported by ssl, urllib3.util.ssl_
+missing module named ssl.PROTOCOL_SSLv23 - imported by ssl, urllib3.util.ssl_
+missing module named os.urandom - imported by os, random, D:\git_project\Image2Text\main.py
+missing module named _hashlib.pbkdf2_hmac - imported by _hashlib, hashlib, D:\git_project\Image2Text\main.py
+missing module named hashlib.sha256 - imported by hashlib, urllib3.util.ssl_
+missing module named hashlib.md5 - imported by hashlib, urllib3.util.ssl_, uuid
+missing module named hashlib.sha1 - imported by hashlib, urllib3.util.ssl_, uuid
+missing module named hashlib.sha512 - imported by hashlib, random, D:\git_project\Image2Text\main.py
+missing module named urllib.proxy_bypass - imported by urllib, requests.compat
+missing module named urllib.urlencode - imported by urllib, requests.compat, aip.base
+missing module named urllib.quote_plus - imported by urllib, requests.compat
+missing module named urllib.unquote_plus - imported by urllib, requests.compat
+missing module named urllib.getproxies - imported by urllib, requests.compat
+missing module named urllib.getproxies_environment - imported by urllib, requests.compat
+missing module named urllib.proxy_bypass_environment - imported by urllib, requests.compat
+missing module named urllib.quote - imported by urllib, asn1crypto._iri, requests.compat, aip.base
+missing module named urllib.unquote - imported by urllib, asn1crypto._iri, requests.compat
+missing module named threading.RLock - imported by threading, _threading_local, bz2, urllib3._collections, D:\git_project\Image2Text\main.py
+missing module named dummy_threading.RLock - imported by dummy_threading, bz2, D:\git_project\Image2Text\main.py
+missing module named _bz2.BZ2Compressor - imported by _bz2, bz2, D:\git_project\Image2Text\main.py
+missing module named _bz2.BZ2Decompressor - imported by _bz2, bz2, D:\git_project\Image2Text\main.py
+missing module named grp - imported by tarfile, shutil, D:\git_project\Image2Text\main.py
+missing module named grp.getgrnam - imported by grp, shutil, D:\git_project\Image2Text\main.py
+missing module named binascii.a2b_qp - imported by binascii, quopri, D:\git_project\Image2Text\main.py
+missing module named binascii.b2a_qp - imported by binascii, quopri, D:\git_project\Image2Text\main.py
+missing module named binascii.a2b_base64 - imported by binascii, email.base64mime, D:\git_project\Image2Text\main.py
+missing module named binascii.b2a_base64 - imported by binascii, email.base64mime, D:\git_project\Image2Text\main.py
+missing module named binascii.hexlify - imported by binascii, urllib3.util.ssl_
+missing module named binascii.unhexlify - imported by binascii, urllib3.util.ssl_
+missing module named _lzma._encode_filter_properties - imported by _lzma, lzma, D:\git_project\Image2Text\main.py
+missing module named _lzma._decode_filter_properties - imported by _lzma, lzma, D:\git_project\Image2Text\main.py
+missing module named nt._exit - imported by nt, os, D:\git_project\Image2Text\main.py
+missing module named nt._getvolumepathname - imported by nt, ntpath, D:\git_project\Image2Text\main.py
+missing module named nt._getfullpathname - imported by nt, ntpath, D:\git_project\Image2Text\main.py
+missing module named nt._getfinalpathname - imported by nt, ntpath, D:\git_project\Image2Text\main.py
+missing module named nt._isdir - imported by nt, ntpath, D:\git_project\Image2Text\main.py
+missing module named nt._have_functions - imported by nt, os, D:\git_project\Image2Text\main.py
+missing module named math.log - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.exp - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.ceil - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.e - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.pi - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.cos - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.sin - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.acos - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.sqrt - imported by math, random, D:\git_project\Image2Text\main.py
+missing module named math.gcd - imported by math, cryptography.hazmat.primitives.asymmetric.rsa
+missing module named _winapi.STD_OUTPUT_HANDLE - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.STD_ERROR_HANDLE - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.CREATE_NEW_CONSOLE - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.STARTF_USESHOWWINDOW - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.STD_INPUT_HANDLE - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.SW_HIDE - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.STARTF_USESTDHANDLES - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named _winapi.CREATE_NEW_PROCESS_GROUP - imported by _winapi, subprocess, D:\git_project\Image2Text\main.py
+missing module named socket.SOCK_STREAM - imported by socket, ssl, D:\git_project\Image2Text\main.py
+missing module named socket.AF_INET - imported by socket, ssl, D:\git_project\Image2Text\main.py
+missing module named socket.SOL_SOCKET - imported by socket, ssl, D:\git_project\Image2Text\main.py
+missing module named socket.SO_TYPE - imported by socket, ssl, D:\git_project\Image2Text\main.py
+missing module named socket._fileobject - imported by socket, urllib3.contrib.pyopenssl
+missing module named socket.inet_ntop - imported by socket, asn1crypto.util
+missing module named socket.inet_pton - imported by socket, asn1crypto.util
+missing module named socket.timeout - imported by socket, urllib3.connectionpool, urllib3.connection, urllib3.response, urllib3.contrib.pyopenssl, urllib3.contrib.socks
+missing module named socket.error - imported by socket, urllib3.connectionpool, urllib3.connection, urllib3.response, urllib3.contrib.pyopenssl, urllib3.contrib.socks
+missing module named _struct._clearcache - imported by _struct, struct, D:\git_project\Image2Text\main.py
+missing module named _struct.__doc__ - imported by _struct, struct, D:\git_project\Image2Text\main.py
+missing module named struct.calcsize - imported by struct, ctypes
+missing module named errno.errorcode - imported by errno, OpenSSL.SSL
+missing module named errno.ENOENT - imported by errno, gettext, D:\git_project\Image2Text\main.py
+missing module named itertools.repeat - imported by itertools, tokenize, collections, decimal, D:\git_project\Image2Text\main.py
+missing module named re.compile - imported by re, _strptime, D:\git_project\Image2Text\main.py
+missing module named re.IGNORECASE - imported by re, _strptime, D:\git_project\Image2Text\main.py
+missing module named re.escape - imported by re, _strptime, D:\git_project\Image2Text\main.py
+missing module named _sre.MAXREPEAT - imported by _sre, sre_constants, sre_parse, sre_compile, D:\git_project\Image2Text\main.py
+missing module named sys.modules - imported by sys, dummy_threading, D:\git_project\Image2Text\main.py
+missing module named _operator._compare_digest - imported by _operator, hmac
+missing module named _operator.__doc__ - imported by _operator, operator, D:\git_project\Image2Text\main.py
+missing module named ntpath.commonprefix - imported by ntpath, unittest.util, D:\git_project\Image2Text\main.py
+missing module named collections.ChainMap - imported by collections, string, D:\git_project\Image2Text\main.py
+missing module named collections.OrderedDict - imported by collections, inspect, pprint, enum, email._header_value_parser, unittest.util, urllib3._collections, asn1crypto._ordereddict, requests.compat, D:\git_project\Image2Text\main.py
+missing module named pwd.getpwnam - imported by pwd, shutil, D:\git_project\Image2Text\main.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, getpass, netrc, D:\git_project\Image2Text\main.py
+missing module named _warnings._filters_mutated - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _warnings._defaultaction - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _warnings.warn_explicit - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _warnings.warn - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _warnings.filters - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _warnings._onceregistry - imported by _warnings, warnings, D:\git_project\Image2Text\main.py
+missing module named _weakref.getweakrefs - imported by _weakref, weakref, D:\git_project\Image2Text\main.py
+missing module named _weakref.proxy - imported by _weakref, weakref, collections, D:\git_project\Image2Text\main.py
+missing module named _weakref.getweakrefcount - imported by _weakref, weakref, D:\git_project\Image2Text\main.py
+missing module named _weakref.ReferenceType - imported by _weakref, weakref, D:\git_project\Image2Text\main.py
+missing module named _weakref.CallableProxyType - imported by _weakref, weakref, D:\git_project\Image2Text\main.py
+missing module named _weakref.ProxyType - imported by _weakref, weakref, D:\git_project\Image2Text\main.py
+missing module named _weakref.ref - imported by _weakref, _weakrefset, weakref, D:\git_project\Image2Text\main.py
+missing module named weakref.ref - imported by weakref, _threading_local, D:\git_project\Image2Text\main.py
+missing module named org - imported by copy, D:\git_project\Image2Text\main.py
+missing module named org.PyStringMap - imported by org, copy, D:\git_project\Image2Text\main.py
+missing module named copy.deepcopy - imported by copy, email.generator, weakref, D:\git_project\Image2Text\main.py
+missing module named _functools.reduce - imported by _functools, functools, D:\git_project\Image2Text\main.py
+missing module named weakref.WeakKeyDictionary - imported by weakref, functools, D:\git_project\Image2Text\main.py
+missing module named _thread.allocate_lock - imported by _thread, _strptime, D:\git_project\Image2Text\main.py
+missing module named _thread.stack_size - imported by _thread, threading, D:\git_project\Image2Text\main.py
+missing module named _thread._local - imported by _thread, threading, D:\git_project\Image2Text\main.py
+missing module named _thread.get_ident - imported by _thread, reprlib, D:\git_project\Image2Text\main.py
+missing module named _thread.RLock - imported by _thread, functools, D:\git_project\Image2Text\main.py
+missing module named _functools.cmp_to_key - imported by _functools, functools, D:\git_project\Image2Text\main.py
+missing module named _functools.partial - imported by _functools, functools, D:\git_project\Image2Text\main.py
+missing module named collections.namedtuple - imported by collections, functools, selectors, difflib, inspect, urllib.parse, ssl, unittest.util, doctest, urllib3.util.selectors, urllib3.util.retry, urllib3.util.url, decimal, D:\git_project\Image2Text\main.py
+missing module named builtins.abs - imported by builtins, operator, D:\git_project\Image2Text\main.py
+missing module named builtins.str - imported by builtins, locale, D:\git_project\Image2Text\main.py
+missing module named time.monotonic - imported by time, subprocess, threading, queue, D:\git_project\Image2Text\main.py
+missing module named time.time - imported by time, subprocess, threading, queue, http.cookies, D:\git_project\Image2Text\main.py
+missing module named sys.version_info - imported by sys, cpyHook
+missing module named _ctypes._wstring_at_addr - imported by _ctypes, ctypes
+missing module named _ctypes._memmove_addr - imported by _ctypes, ctypes
+missing module named _ctypes._string_at_addr - imported by _ctypes, ctypes
+missing module named _ctypes._cast_addr - imported by _ctypes, ctypes
+missing module named _ctypes._memset_addr - imported by _ctypes, ctypes
+missing module named _ctypes.set_last_error - imported by _ctypes, ctypes
+missing module named _ctypes.get_last_error - imported by _ctypes, ctypes
+missing module named _ctypes._check_HRESULT - imported by _ctypes, ctypes
+missing module named _ctypes.POINTER - imported by _ctypes, ctypes
+missing module named _ctypes.pointer - imported by _ctypes, ctypes
+missing module named _ctypes._pointer_type_cache - imported by _ctypes, ctypes
+missing module named _ctypes._SimpleCData - imported by _ctypes, ctypes
+missing module named _ctypes.get_errno - imported by _ctypes, ctypes
+missing module named _ctypes.set_errno - imported by _ctypes, ctypes
+missing module named _ctypes.sizeof - imported by _ctypes, ctypes
+missing module named _ctypes.resize - imported by _ctypes, ctypes
+missing module named _ctypes.addressof - imported by _ctypes, ctypes
+missing module named _ctypes.byref - imported by _ctypes, ctypes
+missing module named _ctypes.alignment - imported by _ctypes, ctypes
+missing module named _ctypes.dlopen - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_STDCALL - imported by _ctypes, ctypes
+missing module named _ctypes.LoadLibrary - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_CDECL - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_USE_ERRNO - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_USE_LASTERROR - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_PYTHONAPI - imported by _ctypes, ctypes
+missing module named _ctypes.FormatError - imported by _ctypes, ctypes
+missing module named _ctypes.ArgumentError - imported by _ctypes, ctypes
+missing module named _ctypes.RTLD_LOCAL - imported by _ctypes, ctypes
+missing module named _ctypes.RTLD_GLOBAL - imported by _ctypes, ctypes
+missing module named _ctypes.__version__ - imported by _ctypes, ctypes
+missing module named _ctypes.CFuncPtr - imported by _ctypes, ctypes
+missing module named _ctypes._Pointer - imported by _ctypes, ctypes
+missing module named _ctypes.Array - imported by _ctypes, ctypes
+missing module named _ctypes.Structure - imported by _ctypes, ctypes
+missing module named _ctypes.Union - imported by _ctypes, ctypes
+missing module named AppKit.NSEvent - imported by AppKit, pykeyboard.mac, pymouse.mac
+missing module named AppKit.NSScreen - imported by AppKit, pymouse.mac
+missing module named AppKit - imported by pykeyboard.mac, pymouse.mac
+missing module named AppKit.NSSystemDefined - imported by AppKit, pykeyboard.mac
+missing module named Quartz - imported by pykeyboard.mac, pymouse.mac
+missing module named 'java.awt'.getPointerInfo - imported by 'java.awt', pymouse.java_
+missing module named 'java.awt'.InputEvent - imported by 'java.awt', pymouse.java_
+missing module named 'java.awt'.Toolkit - imported by 'java.awt', pymouse.java_
+missing module named 'java.awt'.Robot - imported by 'java.awt', pymouse.java_
+missing module named 'java.awt' - imported by pymouse.java_
+missing module named 'Xlib.display'.Display - imported by 'Xlib.display', pymouse.x11
+missing module named 'Xlib.display' - imported by pymouse.x11
+missing module named 'Xlib.keysymdef' - imported by pykeyboard.x11
+missing module named 'Xlib.XK' - imported by pykeyboard.x11
+missing module named 'Xlib.protocol'.rq - imported by 'Xlib.protocol', pykeyboard.x11, pymouse.x11
+missing module named 'Xlib.protocol' - imported by pykeyboard.x11, pymouse.x11
+missing module named 'Xlib.ext'.record - imported by 'Xlib.ext', pykeyboard.x11, pymouse.x11
+missing module named 'Xlib.ext'.fake_input - imported by 'Xlib.ext', pykeyboard.x11, pymouse.x11
+missing module named 'Xlib.ext' - imported by pykeyboard.x11, pymouse.x11
+missing module named Xlib.X - imported by Xlib, pykeyboard.x11, pymouse.x11
+missing module named Xlib.Display - imported by Xlib, pykeyboard.x11
+missing module named Xlib - imported by pykeyboard.x11, pymouse.x11
+missing module named pykeyboard.java_.PyKeyboard - imported by pykeyboard.java_, pykeyboard
+missing module named PyQt5.QtGui.QColor - imported by PyQt5.QtGui, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtGui.QGuiApplication - imported by PyQt5.QtGui, screen_capture
+missing module named PyQt5.QtGui.QPainter - imported by PyQt5.QtGui, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtGui.QPen - imported by PyQt5.QtGui, screen_capture
+missing module named urlparse.urlparse - imported by urlparse, requests.compat, aip.base
+missing module named urlparse - imported by asn1crypto._iri, requests.compat, aip.base
+missing module named urlparse.urlunparse - imported by urlparse, requests.compat
+missing module named urlparse.urljoin - imported by urlparse, requests.compat
+missing module named urlparse.urldefrag - imported by urlparse, requests.compat
+missing module named urlparse.urlsplit - imported by urlparse, asn1crypto._iri, requests.compat
+missing module named urlparse.urlunsplit - imported by urlparse, asn1crypto._iri
+missing module named backports.match_hostname - imported by backports, urllib3.packages.ssl_match_hostname
+missing module named backports.CertificateError - imported by backports, urllib3.packages.ssl_match_hostname
+missing module named backports - imported by urllib3.packages.ssl_match_hostname
+missing module named _abcoll.ValuesView - imported by _abcoll, urllib3.packages.ordered_dict
+missing module named _abcoll.KeysView - imported by _abcoll, urllib3.packages.ordered_dict
+missing module named _abcoll.ItemsView - imported by _abcoll, urllib3.packages.ordered_dict
+missing module named _abcoll - imported by urllib3.packages.ordered_dict
+missing module named dummy_thread.get_ident - imported by dummy_thread, urllib3.packages.ordered_dict
+missing module named dummy_thread - imported by urllib3.packages.ordered_dict
+missing module named thread.get_ident - imported by thread, urllib3.packages.ordered_dict
+missing module named thread - imported by urllib3.packages.ordered_dict
+missing module named StringIO.StringIO - imported by StringIO, requests.compat
+missing module named StringIO - imported by urllib3.packages.six, six, requests.compat
+missing module named Cookie.Morsel - imported by Cookie, requests.compat
+missing module named Cookie - imported by requests.compat
+missing module named cookielib - imported by requests.compat
+missing module named urllib2.parse_http_list - imported by urllib2, requests.compat
+missing module named urllib2 - imported by requests.compat
+missing module named simplejson - imported by requests.compat
+missing module named Queue - imported by urllib3.connectionpool
+missing module named 'urllib3.packages.six.moves'.http_client - imported by 'urllib3.packages.six.moves', urllib3.util.response, urllib3.response
+missing module named 'urllib3.packages.six.moves'.urlencode - imported by 'urllib3.packages.six.moves', urllib3.request
+missing module named 'urllib3.packages.six.moves'.queue - imported by 'urllib3.packages.six.moves', urllib3.connectionpool
+missing module named 'urllib3.packages.six.moves' - imported by urllib3.exceptions, urllib3.connectionpool, urllib3.connection, urllib3.util.response, urllib3.request, urllib3.response, urllib3.poolmanager
+missing module named 'urllib3.packages.six.moves'.urljoin - imported by 'urllib3.packages.six.moves', urllib3.poolmanager
+missing module named 'urllib3.packages.six.moves'.HTTPException - imported by 'urllib3.packages.six.moves', urllib3.connection
+missing module named 'urllib3.packages.six.moves'.HTTPConnection - imported by 'urllib3.packages.six.moves', urllib3.connection
+missing module named 'urllib3.packages.six.moves'.IncompleteRead - imported by 'urllib3.packages.six.moves', urllib3.exceptions
+missing module named socks - imported by urllib3.contrib.socks
+missing module named _winreg - imported by requests.utils
+missing module named cryptography.hazmat.bindings._openssl.lib - imported by cryptography.hazmat.bindings._openssl, cryptography.hazmat.bindings.openssl.binding
+missing module named cryptography.hazmat.bindings._openssl.ffi - imported by cryptography.hazmat.bindings._openssl, cryptography.hazmat.bindings.openssl.binding
+missing module named cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateKeyWithSerialization - imported by cryptography.hazmat.primitives.asymmetric.rsa, cryptography.hazmat.backends.openssl.rsa
+missing module named cryptography.hazmat.primitives.asymmetric.rsa.RSAPublicKeyWithSerialization - imported by cryptography.hazmat.primitives.asymmetric.rsa, cryptography.hazmat.backends.openssl.rsa
+missing module named cryptography.hazmat.bindings._constant_time.lib - imported by cryptography.hazmat.bindings._constant_time, cryptography.hazmat.primitives.constant_time
+missing module named UserDict.DictMixin - imported by UserDict, asn1crypto._ordereddict
+missing module named UserDict - imported by asn1crypto._ordereddict
+missing module named cStringIO.StringIO - imported by cStringIO, asn1crypto.core
+missing module named cStringIO - imported by asn1crypto.core
+missing module named copy_reg - imported by cStringIO
+missing module named sys.platform - imported by sys, OpenSSL.SSL
+missing module named _json.make_encoder - imported by _json, json.encoder
+missing module named _json.encode_basestring_ascii - imported by _json, json.encoder
+missing module named _json.scanstring - imported by _json, json.decoder
+missing module named _json.make_scanner - imported by _json, json.scanner
+missing module named PyQt5.QtGui.QBitmap - imported by PyQt5.QtGui, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.QVBoxLayout - imported by PyQt5.QtWidgets, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.QHBoxLayout - imported by PyQt5.QtWidgets, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.QFrame - imported by PyQt5.QtWidgets, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.QPushButton - imported by PyQt5.QtWidgets, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.qApp - imported by PyQt5.QtWidgets, qss_ui_theme.green_theme
+missing module named PyQt5.QtWidgets.QFileDialog - imported by PyQt5.QtWidgets, Image2Text
+missing module named PyQt5.QtWidgets.QLabel - imported by PyQt5.QtWidgets, Image2Text, qss_ui_theme.window_titlebar
+missing module named PyQt5.QtWidgets.QWidget - imported by PyQt5.QtWidgets, Image2Text, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtGui.QPixmap - imported by PyQt5.QtGui, Image2Text, screen_capture
+missing module named PyQt5.QtGui.QMovie - imported by PyQt5.QtGui, Image2Text
+missing module named PyQt5.QtWidgets.QApplication - imported by PyQt5.QtWidgets, D:\git_project\Image2Text\main.py, qss_ui_theme.window_titlebar, screen_capture
+missing module named PyQt5.QtGui.QIcon - imported by PyQt5.QtGui, D:\git_project\Image2Text\main.py, Image2Text, qss_ui_theme.window_titlebar
