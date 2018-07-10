@@ -3,7 +3,7 @@ import threading
 from PyQt5.QtCore import pyqtSlot, QFileInfo, pyqtSignal, QBuffer, QByteArray, QIODevice, QSize
 from PyQt5.QtGui import QMovie, QPixmap, QIcon
 from PyQt5.QtWidgets import QWidget, QFileDialog, QLabel
-from qss_ui_theme.green_theme import green_decorator
+from QCandyUi.CandyWindow import colorful
 
 import ocr_util
 from screen_capture import CaptureScreen
@@ -19,7 +19,7 @@ OPEN_FILE_ICON_URL = './asset/file.png'
 LOADING_GIF_URL = './asset/loading.gif'
 
 
-@green_decorator
+@colorful('blueGreen')
 class Image2Text(QWidget):
     signal_response = pyqtSignal(str)
 
