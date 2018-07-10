@@ -2,6 +2,7 @@ import sys
 
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication
+from QCandyUi import CandyWindow
 
 import Image2Text
 
@@ -11,10 +12,11 @@ APP_ICON_URL = './asset/myicon.ico'
 
 def run_with_titlebar():
     app = QApplication(sys.argv)
-    imgeFrame = Image2Text.Image2Text()
-    imgeFrame.setWindowTitle(WINDOW_TITLE)
-    imgeFrame.setWindowIcon(QIcon(APP_ICON_URL))
-    imgeFrame.show()
+    imageFrame = Image2Text.Image2Text()
+    imageFrame = CandyWindow.createWindow(imageFrame, 'blueGreem')
+    imageFrame.setWindowTitle(WINDOW_TITLE)
+    imageFrame.setWindowIcon(QIcon(APP_ICON_URL))
+    imageFrame.show()
     sys.exit(app.exec_())
 
 
