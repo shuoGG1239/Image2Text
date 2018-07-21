@@ -15,5 +15,6 @@
 # 实例
 * 截图识别
 ![image2text.gif](https://i.loli.net/2018/07/21/5b528fab7fcbb.gif)
+<br><br>
 * 图片识别
 ![drag2text.gif](https://i.loli.net/2018/07/21/5b529366aa7c0.gif)
