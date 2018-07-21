@@ -5,6 +5,7 @@
 * pip install pyQt5
 * pip install QCandyUi
 * pip install baidu-aip
+* pip install pyuserinput
 
 # 使用说明
 - 可直接将待识别图片拖拽到该应用的空白处
