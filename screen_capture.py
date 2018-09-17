@@ -39,6 +39,8 @@ class CaptureScreen(QWidget):
         if event.button() == Qt.LeftButton:
             self.is_mouse_pressed = True
             self.begin_pos = event.pos()
+        if event.button() == Qt.RightButton:
+            self.close()
         return QWidget.mousePressEvent(self, event)
 
     def mouseMoveEvent(self, event):
@@ -51,6 +53,11 @@ class CaptureScreen(QWidget):
         self.end_pos = event.pos()
         self.is_mouse_pressed = False
         return QWidget.mouseReleaseEvent(self, event)
+
+    def mouseDoubleClickEvent(self, event):
+        if self.capture_pixmap is not None:
+            self.signal_complete_capture.emit(self.capture_pixmap)
+            self.close()
 
     def paintEvent(self, event):
         self.painter.begin(self)
