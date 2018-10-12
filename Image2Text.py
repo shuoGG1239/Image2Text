@@ -1,13 +1,12 @@
 import threading
 
-from PyQt5.QtCore import pyqtSlot, QFileInfo, pyqtSignal, QBuffer, QByteArray, QIODevice, QSize
+from PyQt5.QtCore import pyqtSlot, QFileInfo, pyqtSignal, QBuffer, QByteArray, QIODevice, QSize, Qt
 from PyQt5.QtGui import QMovie, QPixmap, QIcon
 from PyQt5.QtWidgets import QWidget, QFileDialog, QLabel
 from QCandyUi.CandyWindow import colorful
 
 import ocr_util
 from screen_capture import CaptureScreen
-from triggerKeyboard import key_trigger
 from ui_image2text import Ui_image2textWidget
 
 # 全局截屏快捷键
@@ -17,6 +16,9 @@ SCREEN_SHOT_SHORTCUT = 'ctrl+shift+alt+f8'
 SCREEN_SHOT_ICON_URL = './asset/scissors.png'
 OPEN_FILE_ICON_URL = './asset/file.png'
 LOADING_GIF_URL = './asset/loading.gif'
+
+# 设置
+MIN_AFTER_SHOT = False
 
 
 @colorful('blueGreen')
@@ -34,8 +36,6 @@ class Image2Text(QWidget):
         self.signal_response.connect(self.__slot_http_response)
         self.beautify_button(self.ui.pushButtonOpen, OPEN_FILE_ICON_URL)
         self.beautify_button(self.ui.pushButtonCapture, SCREEN_SHOT_ICON_URL)
-        # 异步运行键盘扫描
-        threading.Thread(target=self.run_capture_keyscan).start()
 
     def beautify_button(self, button, image_url):
         """
@@ -88,14 +88,6 @@ class Image2Text(QWidget):
         image.save(buffer, image_format)
         return buffer.data()
 
-    @key_trigger(SCREEN_SHOT_SHORTCUT, False)
-    def run_capture_keyscan(self):
-        """
-        快捷键触发截屏信号
-        :return:
-        """
-        self.ui.pushButtonCapture.clicked.emit()
-
     @pyqtSlot()
     def on_pushButtonOpen_clicked(self):
         img_full_path = QFileDialog.getOpenFileName()[0]
@@ -139,3 +131,15 @@ class Image2Text(QWidget):
                 file_bytes = fp.read()
             self.run_ocr_async(file_bytes)
             event.acceptProposedAction()
+
+    def keyPressEvent(self, e):
+        """
+        ctrl+alt+shift+F8
+        :param e:
+        :return:
+        """
+        if (e.modifiers() == Qt.ControlModifier | Qt.AltModifier | Qt.ShiftModifier) \
+                and (e.key() == Qt.Key_F8):
+            if MIN_AFTER_SHOT:
+                self.parentWidget().showMinimized()
+            self.ui.pushButtonCapture.clicked.emit()

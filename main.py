@@ -14,6 +14,7 @@ def run_with_titlebar():
     imageFrame = Image2Text.Image2Text()
     imageFrame.setWindowTitle(WINDOW_TITLE)
     imageFrame.setWindowIcon(QIcon(APP_ICON_URL))
+    imageFrame.mainwidget.setFocus()
     imageFrame.show()
     sys.exit(app.exec_())
 
