@@ -1,5 +1,5 @@
 # Image2Text
-截取图片并识别出图片的文字
+截取图片并识别出图片的文字(在release中可以下载exe版直接用)
 
 # 依赖
 * pip install pyQt5
