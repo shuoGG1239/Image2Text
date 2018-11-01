@@ -90,12 +90,15 @@ class Image2Text(QWidget):
 
     @pyqtSlot()
     def on_pushButtonOpen_clicked(self):
-        img_full_path = QFileDialog.getOpenFileName()[0]
-        if img_full_path is None or img_full_path == '':
-            return
-        with open(img_full_path, 'rb') as fp:
-            file_bytes = fp.read()
-        self.run_ocr_async(file_bytes)
+        file_urls = QFileDialog.getOpenFileNames()[0]
+        if len(file_urls) > 0:
+            self.ui.textEdit.clear()
+        for img_full_path in file_urls:
+            if img_full_path is None or img_full_path == '':
+                continue
+            with open(img_full_path, 'rb') as fp:
+                file_bytes = fp.read()
+            self.run_ocr_async(file_bytes)
 
     @pyqtSlot()
     def on_pushButtonCapture_clicked(self):
@@ -104,7 +107,7 @@ class Image2Text(QWidget):
 
     @pyqtSlot(str)
     def __slot_http_response(self, result):
-        self.ui.textEdit.setText(result)
+        self.ui.textEdit.append(result)
         self.loadingLabel.setVisible(False)
 
     @pyqtSlot(QPixmap)
@@ -125,11 +128,13 @@ class Image2Text(QWidget):
     def dropEvent(self, event):
         if (event.mimeData().hasUrls()):
             urlList = event.mimeData().urls()
-            fileInfo = QFileInfo(urlList[0].toLocalFile())
-            img_full_path = fileInfo.filePath()
-            with open(img_full_path, 'rb') as fp:
-                file_bytes = fp.read()
-            self.run_ocr_async(file_bytes)
+            self.ui.textEdit.clear()
+            for url in urlList:
+                fileInfo = QFileInfo(url.toLocalFile())
+                img_full_path = fileInfo.filePath()
+                with open(img_full_path, 'rb') as fp:
+                    file_bytes = fp.read()
+                self.run_ocr_async(file_bytes)
             event.acceptProposedAction()
 
     def keyPressEvent(self, e):
