@@ -1,4 +1,6 @@
+import os
 import threading
+from multiprocessing.pool import ThreadPool
 
 from PyQt5.QtCore import pyqtSlot, QFileInfo, pyqtSignal, QBuffer, QByteArray, QIODevice, QSize, Qt
 from PyQt5.QtGui import QMovie, QPixmap, QIcon
@@ -36,6 +38,9 @@ class Image2Text(QWidget):
         self.signal_response.connect(self.__slot_http_response)
         self.beautify_button(self.ui.pushButtonOpen, OPEN_FILE_ICON_URL)
         self.beautify_button(self.ui.pushButtonCapture, SCREEN_SHOT_ICON_URL)
+
+    def __init_threadPool(self):
+        self.pool = ThreadPool(10)
 
     def beautify_button(self, button, image_url):
         """
@@ -128,14 +133,49 @@ class Image2Text(QWidget):
     def dropEvent(self, event):
         if (event.mimeData().hasUrls()):
             urlList = event.mimeData().urls()
+            realList = list()
             self.ui.textEdit.clear()
             for url in urlList:
                 fileInfo = QFileInfo(url.toLocalFile())
-                img_full_path = fileInfo.filePath()
-                with open(img_full_path, 'rb') as fp:
+                full_path = fileInfo.filePath()
+                if os.path.isfile(full_path):
+                    realList.append(full_path)
+                if os.path.isdir(full_path):
+                    realList.extend(self.__getFiles(full_path))
+            for url in realList:
+                print(url)
+                with open(url, 'rb') as fp:
                     file_bytes = fp.read()
                 self.run_ocr_async(file_bytes)
             event.acceptProposedAction()
+
+    def __getFiles(self, dir_path, suffix=None):
+        """
+        获取dir_path目录及其子目录下所有.xxx文件的路径
+        :param suffix: 后缀如".sql" ".java" ; 若不填则不进行文件过滤
+        :return: str or list or tuple
+        """
+        if dir_path == '' or dir_path is None:
+            return
+        if os.path.isfile(dir_path):
+            return
+        urls = list()
+        for maindir, subdir, filename_list in os.walk(dir_path):
+            for file in filename_list:
+                full_path = os.path.join(maindir, file)
+                ext = os.path.splitext(full_path)[1]
+                ok = False
+                if suffix is None:
+                    ok = True
+                elif isinstance(suffix, str):
+                    if suffix == ext:
+                        ok = True
+                elif isinstance(suffix, list) or isinstance(suffix, tuple):
+                    if suffix is None or ext in suffix:
+                        ok = True
+                if ok:
+                    urls.append(full_path)
+        return urls
 
     def keyPressEvent(self, e):
         """
