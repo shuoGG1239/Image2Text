@@ -143,7 +143,6 @@ class Image2Text(QWidget):
                 if os.path.isdir(full_path):
                     realList.extend(self.__getFiles(full_path))
             for url in realList:
-                print(url)
                 with open(url, 'rb') as fp:
                     file_bytes = fp.read()
                 self.run_ocr_async(file_bytes)
