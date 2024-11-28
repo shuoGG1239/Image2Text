@@ -80,8 +80,8 @@ class CaptureScreen(QWidget):
             self.close()
 
     def get_rect(self, beginPoint, endPoint):
-        width = qAbs(beginPoint.x() - endPoint.x())
-        height = qAbs(beginPoint.y() - endPoint.y())
+        width = int(qAbs(beginPoint.x() - endPoint.x()))
+        height = int(qAbs(beginPoint.y() - endPoint.y()))
         x = beginPoint.x() if beginPoint.x() < endPoint.x() else endPoint.x()
         y = beginPoint.y() if beginPoint.y() < endPoint.y() else endPoint.y()
         selected_rect = QRect(x, y, width, height)
